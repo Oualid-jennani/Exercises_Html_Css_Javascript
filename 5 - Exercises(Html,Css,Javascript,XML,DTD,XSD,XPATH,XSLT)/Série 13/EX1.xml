@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/Users/Walid/Desktop/Cours%20de%20d%C3%A9veloppeur/WEB/Web_ESTA/Web_EXERCICE/S%C3%A9rie%2013/EX1.xsl"?>
+<clients>
+  <client>
+    <nom>Alami</nom>
+    <prenom>Hicham</prenom>
+    <tel>0609765434</tel>
+    <email>ahicham@gmail.com</email>
+    <adresse>Hay El Fath Oujda</adresse>
+  </client>
+  <client>
+    <nom>Karzazi</nom>
+    <prenom>Halima</prenom>
+    <tel>0698678945</tel>
+    <email>halima@gmail.com</email>
+    <adresse>Hay El Qods Oujda</adresse>
+  </client>
+  <client>
+    <nom>Alaoui</nom>
+    <prenom>Fadoua</prenom>
+    <tel>0587543245</tel>
+    <email>fadoua@gmail.com</email>
+    <adresse>Hay El Farah Oujda</adresse>
+  </client>
+  <client>
+    <nom>BouKachni</nom>
+    <prenom>Hamza</prenom>
+    <tel>0678905467</tel>
+    <email>boukachni@gmail.com</email>
+    <adresse>Hay El Amal Oujda</adresse>
+  </client>
+  <client>
+    <nom>Zartal</nom>
+    <prenom>Moad</prenom>
+    <tel>0678904567</tel>
+    <email>zartal@gmail.com</email>
+    <adresse>Hay El Baraka Oujda</adresse>
+  </client>
+</clients>

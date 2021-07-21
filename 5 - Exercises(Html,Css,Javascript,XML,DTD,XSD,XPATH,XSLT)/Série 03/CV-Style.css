@@ -1,0 +1,49 @@
+body{font-family: Georgia;background-color: black}
+/**********************************************************************************************************/
+.main{ background-color: white;width: 1000px;margin: auto;margin-top: 100px;padding-top: 50px;margin-bottom: 100px;padding-bottom: 50px }
+.main > div { width: 80% ; margin: auto;}
+/**********************************************************************************************************/
+.D-1,.D-2,.D-3,.D-4{ padding:0px 10px ;overflow: hidden;}
+.D-2-1,.D-3-1,.D-4-1,.D-5-1,.D-6-1{ width: 20%}
+/**********************************************************************************************************/
+.D-1{background-color: gainsboro;padding-top: 10px;border-radius: 8px}.D-1 > div{float: left; }
+.D-1-1{ width: 70% ;padding-left: 20px}.D-1-2{ width: auto;}
+/******************/
+#pdf{background-color: #000;color: white;text-decoration:none;padding: 5px 30px;text-align: center}
+#email{color:maroon;font-size: 85%;}.clear{clear: left}
+#tel{font-size: 132%;margin-top: 0;font-family: Georgia}
+/**********************************************************************************************************/
+.D-2{margin-top: 50px}.D-2 > div{float: left; }.D-2-2{ width: 70% ;padding: 0px 10px}
+/**********************************************************************************************************/
+.D-3 > div{float: left; }
+.D-3 >div + div{ width: 22% ;padding: 0px 10px}
+/**********************************************************************************************************/
+.D-4 > div{float: left; }
+.D-4-2{ width: 74% ;padding: 0px 10px}
+ul li{border-bottom:solid 1px grey;margin-top: 5px;margin-bottom: 5px}
+.BorderN{border:none }
+.UL{list-style: none;float: left;width: 33%;margin-top: 15px;padding: 0px}
+/**********************************************************************************************************/
+.D-5{overflow: hidden}.D-5-1{float: left;}.D-5-2{width: 79%;position: relative;float: right}
+/******************/
+.Anne{position: absolute;top: 0px;right: 0px;}
+/**********************************************************************************************************/
+.D-6 {overflow: hidden}.D-6 > div{float: left; }.D-6-1{ width: 20%}.D-6-2{ width: 70% ;padding: 0px 10px}
+/**********************************************************************************************************/
+.ft{text-align: center;background-color: gainsboro;padding: 0.1px;margin-top: 50px;border-radius: 8px}
+
+
+/*  h1  */
+h1{font-size: 40px;font-weight: normal;font-style: italic;margin-top: 7px}
+
+/*  h2  */
+h2{font-family: "Lucida Sans Unicode";font-style: italic;font-size: 120% }
+.main > div >div>h2{text-decoration: underline;color: gray;}
+.main > div >div+div >h2{text-decoration: underline;color: maroon;font-style: normal;}
+
+/*  h3  */
+h3{font-weight: normal;font-style: italic;font-family: arial}
+
+/*  hr  */
+hr{width: 80%;margin: auto; border:solid 1px darkslategray}.HR1{margin-top: 50px;margin-bottom: 25px}
+.main > div>div>hr{width: 100%;border:solid 0.5px dimgray}

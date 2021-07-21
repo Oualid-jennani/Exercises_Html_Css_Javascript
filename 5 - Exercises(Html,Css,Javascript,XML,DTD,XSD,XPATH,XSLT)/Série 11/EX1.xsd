@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="commande">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="ref" type="xs:string"/>
+        <xs:element name="client">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nom-prenom" type="xs:string"/>
+              <xs:element name="adresse" type="xs:string"/>
+              <xs:element name="ville" type="xs:string"/>
+              <xs:element name="pays" type="xs:string"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="article" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="titre" type="xs:string"/>
+              <xs:element name="description" type="xs:string" minOccurs="0"/>
+              <xs:element name="quantite" type="xs:positiveInteger"/>
+              <xs:element name="prix" type="xs:decimal"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="idCommande" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

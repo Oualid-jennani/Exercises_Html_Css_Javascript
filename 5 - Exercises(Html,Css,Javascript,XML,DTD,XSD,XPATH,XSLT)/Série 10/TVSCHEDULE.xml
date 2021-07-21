@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TVSCHEDULE SYSTEM "EX3.dtd">
+<TVSCHEDULE NAME="AAAAA" >
+  <CHANNEL  CHAN="REEP" >
+   <BANNER></BANNER>
+   <DAY>
+    <DATE></DATE>
+    <HOLIDAY></HOLIDAY>
+   </DAY>
+  </CHANNEL>
+
+  <CHANNEL  CHAN="REEP" >
+   <BANNER></BANNER>
+   <DAY>
+    <DATE></DATE>
+    <HOLIDAY></HOLIDAY>
+    <PROGRAMSLOT>
+     <TIME></TIME>
+     <TITLE></TITLE>
+    </PROGRAMSLOT>
+    <PROGRAMSLOT>
+     <TIME></TIME>
+     <TITLE></TITLE>
+    </PROGRAMSLOT>
+   </DAY>
+  </CHANNEL>
+  
+  
+</TVSCHEDULE>

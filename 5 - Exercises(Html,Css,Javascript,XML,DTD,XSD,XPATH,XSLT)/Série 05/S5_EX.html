@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="welcom to my web site">
+		<title>My Page 1</title>
+        <link rel="stylesheet" type="text/css" href="Style_S5.css" media="all" />
+        <style>
+        
+        </style>
+
+	</head>
+	<body>
+        <ul class="uli">
+            <li>TDI
+                <ul>
+                    <li>101</li>
+                    <li>102</li>
+                    <li>201</li>
+                    <li>202</li>
+                </ul>
+            </li>
+            <li>TRI</li>
+            <li>TDM</li>
+            <li>TRI
+                <ul>
+                    <li>101</li>
+                    <li>202</li>
+                </ul>
+            </li>
+            <li>TMSIR</li>
+            <li>TSFE
+                <ul>
+                    <li>202</li>
+                    <li>102</li>
+                </ul>
+            </li>
+            <li>MECA</li>
+            <li>INFOG</li>
+            <li>LAN_WAN</li>
+        </ul>
+        <div class="IM1"></div>
+        <div class="IM2"></div>
+        
+        
+        
+        <div class="prog" id="prog">
+            <div class="html" id="html"></div>
+            <div class="css" id="css"></div>
+            <div class="js" id="js"></div>
+            <div class="jquiry" id="jquiry"></div>
+        </div>
+
+        <br><br>
+        
+        <div class="prog1" id="prog1">
+            <div class="html1" id="html1"><span>Html</span></div>
+            <div class="css1" id="css1"><span>Css</span></div>
+            <div class="js1" id="js1"><span>Javascript</span></div>
+            <div class="jquiry1" id="jquiry1"><span>Jquery</span></div>
+        </div>
+        
+        
+
+        
+
+        
+        
+        <script>
+            
+            var prog = document.getElementById("prog");
+            var D1 = document.getElementById("html");
+            var D2 = document.getElementById("css");
+            var D3 = document.getElementById("js");
+            var D4 = document.getElementById("jquiry");
+            prog.onmouseover = function(){
+                "use strict";
+                D1.style.width="500px";
+                D1.innerHTML = "Html";
+                D2.style.width="350px";
+                D2.innerHTML = "Css";
+                D3.style.width="400px";
+                D3.innerHTML = "JavaScript";
+                D4.style.width="450px";
+                D4.innerHTML = "Jquiry";
+            };
+
+               
+        </script>
+        
+	</body>
+</html>

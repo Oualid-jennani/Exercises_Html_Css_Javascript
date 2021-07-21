@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE stagiaires SYSTEM "S10DTD.dtd">
+<stagiaires>
+    <stagiaire filiere ="TDI" groupe ="202">
+        <nom> </nom>
+        <prenom></prenom>
+        <telephone></telephone>
+        <email> </email>
+        <adresse></adresse> 
+        <stages>
+          <dateDebut> </dateDebut>
+          <dateFin></dateFin>
+          <encadrant>
+             <nom></nom>
+             <prenom></prenom>
+              <telephone></telephone>
+              <email> </email>
+            </encadrant>
+             <organisme secteur="public">
+               <nom> </nom>
+                <adresse></adresse> 
+              </organisme>
+        </stages>
+    </stagiaire>
+</stagiaires>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> 
+<commande> 
+   <reference>FA76890</reference> 
+   <date>2018-02-12</date>  
+   <client>   
+     <nom>Alami</nom> 
+     <prenom>Karim</prenom>
+     <tel>0609765434</tel>   
+     <email>ahicham@gmail.com</email>  
+     <adresse>Hay El Fath Oujda</adresse>  
+    </client>   
+    <articles>   
+     <article>   
+         <libelle>Ordinateur portable</libelle> 
+         <quantite>1</quantite>
+         <prix>7000</prix> 
+      </article>
+      <article>
+         <libelle>Imprimante</libelle>
+          <quantite>5</quantite>    
+          <prix>1500</prix>
+        </article> 
+        <article>     
+           <libelle>Ecran</libelle>
+           <quantite>3</quantite>  
+            <prix>700</prix> 
+        </article>   
+        <article>   
+           <libelle>RAM 4Go</libelle>  
+           <quantite>10</quantite>
+           <prix>200</prix>  
+        </article>
+        <article> 
+          <libelle>Cable RJ45</libelle>
+          <quantite>20</quantite> 
+          <prix>45</prix>  
+        </article> 
+    </articles> 
+</commande>

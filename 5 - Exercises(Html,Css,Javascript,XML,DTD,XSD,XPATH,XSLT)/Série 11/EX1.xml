@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<commande xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" idCommande="1" xsi:noNamespaceSchemaLocation="EX1.xsd">
+  <ref>produit</ref>
+  <client>
+    <nom-prenom>walid jennani</nom-prenom>
+    <adresse>hay najd  3 2013</adresse>
+    <ville>oujda</ville>
+    <pays>maroc</pays>
+  </client>
+  <article>
+    <titre>stylo</titre>
+    <description>this is nice stylo</description>
+    <quantite>55</quantite>
+    <prix>5</prix>
+  </article>
+</commande>

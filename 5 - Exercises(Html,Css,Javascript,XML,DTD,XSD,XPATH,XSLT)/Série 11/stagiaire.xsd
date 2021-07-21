@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+  <xs:element name="stagiaires">
+    <xs:complexType>
+      <xs:sequence>
+       
+        <xs:element name="stagiaire" minOccurs="1">
+         <xs:complexType>
+          <xs:sequence >
+           
+            <xs:element name="nom" type="xs:string"/> 
+            <xs:element name="prenom" type="xs:string"/> 
+            <xs:element name="telephone"> 
+              <xs:simpleType>
+                <xs:restriction base="xs:string">
+                  <xs:pattern value="(05|06|07)[0-9]{8}"/>
+                </xs:restriction>
+              </xs:simpleType>
+            </xs:element>
+            <xs:element name="email" type="xs:string"/> 
+            <xs:element name="adresse" type="xs:string"/>
+            
+            <xs:element name="stages" minOccurs="0"> 
+                <xs:complexType> 
+                  <xs:sequence> 
+                     
+                     <xs:element name="stage" minOccurs="0"> 
+                       <xs:complexType> 
+                        <xs:sequence> 
+                         
+                         <xs:element name="dateDebut" type="xs:date"/> 
+                         <xs:element name="dateFin" type="xs:date"/> 
+                         
+                         <xs:element name="encadrent"> 
+                           <xs:complexType> 
+                             <xs:sequence> 
+                               <xs:element name="nom" type="xs:string"/> 
+                               <xs:element name="prenom" type="xs:string"/> 
+                               <xs:element name="telephone"> 
+                                 <xs:simpleType>
+                                   <xs:restriction base="xs:string">
+                                     <xs:pattern value="(05|06|07)[0-9]{8}"/>
+                                   </xs:restriction>
+                                 </xs:simpleType>
+                               </xs:element>
+                               <xs:element name="email" type="xs:string"/> 
+                             </xs:sequence> 
+                            </xs:complexType> 
+                          </xs:element>
+                         
+                          <xs:element name="organisme"> 
+                           <xs:complexType> 
+                             <xs:sequence> 
+                               <xs:element name="nom" type="xs:string"/> 
+                               <xs:choice>
+                                  <xs:element name="adresse" type="xs:string"/> 
+                                  <xs:element name="telephone"> 
+                                    <xs:simpleType>
+                                      <xs:restriction base="xs:string">
+                                        <xs:pattern value="(05|06|07)[0-9]{8}"/>
+                                      </xs:restriction>
+                                    </xs:simpleType>
+                                  </xs:element>
+                                </xs:choice>
+                              </xs:sequence> 
+                              <xs:attribute name="secteur" default="privé" use="optional">
+                                 <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                      <xs:enumeration value="public"/>
+                                      <xs:enumeration value="privé"/>
+                                    </xs:restriction>
+                                  </xs:simpleType> 
+                              </xs:attribute> 
+                            </xs:complexType> 
+                          </xs:element> 
+                         
+                        </xs:sequence> 
+                        <xs:attribute name="sujet" type="xs:string" use="required"/> 
+                        <xs:attribute name="note" type="xs:string" use="required"/> 
+                      </xs:complexType> 
+                    </xs:element> 
+                    
+                  </xs:sequence> 
+                </xs:complexType> 
+              </xs:element> 
+              
+            </xs:sequence>
+            <xs:attribute name="filiere" type="xs:string" use="required"/> 
+            <xs:attribute name="groupe" use="optional"> 
+              <xs:simpleType>
+               <xs:restriction base="xs:int">
+                  <xs:pattern value="[0-9]{3}"/>
+               </xs:restriction>
+              </xs:simpleType>
+            </xs:attribute>
+          </xs:complexType>
+        </xs:element>
+        
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

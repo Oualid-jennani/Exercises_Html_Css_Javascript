@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="welcom to my web site">
+		<title>EX_S4</title>
+
+		<link rel="stylesheet" href="style.css">
+		<script></script>
+		<style>
+            
+            body {margin: 0px;margin-right: 0;}
+
+            /********************************************************************************************************/
+            .main0{width: 45%;height: 600px;position: relative;border:solid 5px #000;margin-bottom: 20px;float: left}
+            
+            ul { width: 600px; }
+
+            .UL1 li {
+                border: 1px blue solid;
+                background-color: chartreuse;
+                width: 19%;
+                float: left;
+                color: black;
+                text-align: center;
+                padding:5px 0px 5px;
+                list-style: none
+            }
+            
+            .UL2 li {
+                border: 1px blue solid;
+                background-color: chartreuse;
+                width: 19%;
+                color: black;
+                text-align: center;
+                padding:5px 0px 5px;
+                list-style: none
+            }
+            
+            /********************************************************************************************************/
+            .main1{width: 45%;height: 600px;position: relative;border:solid 5px #000;margin-bottom: 20px;float: left}
+            .main1 > div{width: 100px;height: 100px;position: absolute}
+            .DI1{ background-color:  chartreuse;top:20px;left: 20px}
+            .DI2{ background-color:  aqua; top:20px;right: 20px}
+            .DI3{ background-color:  blue;bottom:20px;left: 20px}
+            .DI4{ background-color:  darkviolet;bottom:20px;right: 20px}
+            
+            
+            /********************************************************************************************************/
+            .main2{width: 45%;height: 600px;position: relative;border:solid 5px #000;margin-bottom: 20px;float: left;}
+            
+			table caption {color:#00F}
+			table,td,th {border:1px solid #000}
+			table {text-align:center;width:500px;height: 500px}
+            
+            
+            /********************************************************************************************************/
+            .main3{width: 45%;height: 600px;position: relative;border:solid 5px #000;margin-bottom: 20px;float: left;}
+            
+            .IM1{ top:51px;left:200px;z-index:3 ;position:absolute}
+            .IM2{ top:108px;left:373px;z-index:3 ;position:absolute}
+            .IM3{ top:8px;left:337px;z-index:3 ;position:absolute}
+            .IM4{ top:0px;left:197px;z-index:3 ;position:absolute}
+            .IM5{ top:139px;left:237px;z-index:3 ;position:absolute}
+            
+            .D1{ width: 700px;height: 300px; margin: auto;position:relative;background-color: aqua;margin-bottom: 5px; }
+            .D2{ width: 150px;height: 150px; margin: auto;position:relative;margin-bottom: 5px }
+            
+            .DV1,.DV2,.DV3,.DV4{width: 100px;height: 100px}
+            .DV1{border: solid 10px red;position:absolute;top:0px;left:0px;z-index: 3}
+            .DV2{border: solid 10px green;position:absolute;top:0px;right:0px;z-index: 2}
+            .DV3{border: solid 10px yellow;position:absolute;bottom:0px;left:0px;z-index: 1}
+            .DV4{border: solid 10px blue;position:absolute;bottom:0px;right:0px;z-index: 2}
+
+		</style>
+	</head>
+	<body>
+        <!--***********************************-->
+        <div class="main0">
+            <ul class="UL1">
+                <li>Accueil</li>
+                <li>Produits</li>
+                <li>Services</li>
+                <li>Equipe</li>
+                <li>Contact</li>
+            </ul>
+            <br><br><br>
+            <ul class="UL2">
+                <li>Accueil</li>
+                <li>Produits</li>
+                <li>Services</li>
+                <li>Equipe</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        
+        <!--***********************************-->
+       <div class="main1">
+
+            <div class="DI1"></div>
+            <div class="DI2"></div>
+            <div class="DI3"></div>
+            <div class="DI4"></div>
+
+        </div>
+
+        <!--***********************************-->
+        <div class="main2">
+            <table>
+            <caption>Table 1</caption>
+                <tr>
+                    <td>A</td>
+                    <td>B</td>
+                    <td>C</td>
+                </tr>
+
+                <tr>
+                    <td colspan="2">D</td>
+                    <td>E</td>
+                </tr>
+                <tr>
+                    <td>F</td>
+                    <td colspan="2" rowspan="2">G</td>
+                </tr>
+                <tr>
+                    <td>H</td>
+                </tr>
+                <tr>
+                    <td colspan="2">I</td>
+                    <td>J</td>
+                </tr>
+            </table>
+        </div>
+
+        <!--***********************************-->
+        <div class="main3">
+            <div class="D1" >
+                <img src="houseParts/house.png" class="IM1">
+                <img src="houseParts/door.png" class="IM2">
+                <img src="houseParts/part.png" class="IM3">
+                <img src="houseParts/roofe.png" class="IM4">
+                <img src="houseParts/window.png" class="IM5">
+            </div>
+            <div class="D2" >
+                <div class="DV1"></div>
+                <div class="DV2"></div>
+                <div class="DV3"></div>
+                <div class="DV4"></div>
+            </div>
+        </div>
+
+
+	</body>
+</html>

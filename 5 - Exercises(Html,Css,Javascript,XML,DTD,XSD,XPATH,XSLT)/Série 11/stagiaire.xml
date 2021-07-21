@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<stagiaires xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="stagiaire.xsd">
+   <stagiaire filiere="" groupe="102">
+      <nom>jennani</nom>
+      <prenom>walid</prenom>
+      <telephone>0635316658</telephone>
+      <email>d1@dsss.dsd</email>
+      <adresse>kejkjekejkd</adresse>
+      <stages>
+        <stage sujet="" note="">
+          <dateDebut>2020-01-10</dateDebut>
+          <dateFin>2020-01-10</dateFin>
+          <encadrent>
+            <nom>enc</nom>
+              <prenom>enc</prenom>
+              <telephone>0612121587</telephone>
+              <email>x@d.d</email>
+          </encadrent>
+          <organisme xmlns:org="http://org" secteur="public">
+            <nom>comp</nom>
+            <telephone>0612437876</telephone>
+          </organisme>
+        </stage>
+      </stages>
+    </stagiaire>
+</stagiaires>

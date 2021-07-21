@@ -1,0 +1,84 @@
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <style>
+            .d3{ width: 200px;height: 200px }
+        
+        </style>
+    </head>
+        <body>  
+            <div class="d1">
+                <ul class="ul1">  
+                    <li>TDI</li>
+                    <li>TRI</li>
+                    <li>TDM</li>
+                    <li>TSF</li>
+                    <li>MAA</li>
+                </ul>
+            </div>
+            
+            
+            
+             <div class="d3">
+                <ul class="ul2">  
+                    <li>BG</li>
+                    <li>Agrandir</li>
+                    <li>Diminuer</li>
+                    <li>ZOOM+</li>
+                    <li>ZOOM-</li>
+                    <li>Transparence</li>
+                    <li>Elargir</li>
+                    <li>Width</li>
+                    <li>Hide</li>
+                    <li>Reset</li>
+                </ul>
+            </div>
+            <script src="jQuery-3.3.1.js"></script>
+            <script>
+           $(function(){
+               $(".ul1 :first-child").css('color','red'); 
+               $(".ul1 :last-child").css('color','green'); 
+               $(".ul1 :eq(2)").css('color','aqua');
+               $(".ul1 :eq(3)").html("TRI");
+               $(".ul1 ").append("<li>Infog</li>");
+               $(".ul1 :eq(2)").remove();
+               $(".d1").after("<div class='d2'>  </div>");
+               $(".d2").html("Le nombre d’éléments dans la liste (li) " + $(".ul1 li").length);
+               $(".d2").html($(".d2").html() + "<br>Le nombre d’éléments pair  " +$(".ul1 :even").length);
+               $(".d2").append("<br>Le nombre d’éléments impair " + $(".ul1 :odd").length);
+               
+               $('.ul2 :eq(0)').click(function(){
+                   $('.d3').css('background','red');
+               });
+               $('.ul2 :eq(1)').click(function(){
+                   $('.d3').css('width','300px').css('height','300px');
+               });
+               $('.ul2 :eq(2)').click(function(){
+                   $('.d3').css('width','200px').css('height','200px');
+               });
+               
+               $('.ul2 :eq(3)').click(function(){
+                   $('.d3').animate({zoom:1.25});
+               });
+               $('.ul2 :eq(4)').click(function(){
+                   $('.d3').css("zoom",0.75);
+               });
+               $('.ul2 :eq(5)').click(function(){
+                   $('.d3').animate( {opacity:'0.5'},1000);
+               });
+               $('.ul2 :eq(6)').click(function(){
+                   $('.d3').animate( {width:'800px'},1000);
+               });
+               $('.ul2 :eq(7)').click(function(){
+                   $('.d3').hide();
+               });
+               
+           }); 
+            
+            
+            </script>
+        </body>
+
+</html>

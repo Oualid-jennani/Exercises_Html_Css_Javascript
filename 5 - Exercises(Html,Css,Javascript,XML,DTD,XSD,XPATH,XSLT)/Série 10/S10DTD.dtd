@@ -1,0 +1,15 @@
+<!ELEMENT stagiaires (stagiaire+)>
+<!ELEMENT stagiaire (nom,prenom,telephone,email,adresse,stages*)>
+<!ATTLIST stagiaire filiere CDATA #REQUIRED> 
+<!ATTLIST stagiaire groupe CDATA #IMPLIED>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT prenom (#PCDATA)>
+<!ELEMENT telephone (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT adresse (#PCDATA)>
+<!ELEMENT stages (dateDebut,dateFin,encadrant?,organisme)>
+<!ELEMENT dateDebut (#PCDATA)>
+<!ELEMENT dateFin (#PCDATA)>
+<!ELEMENT encadrant (nom,prenom,telephone,email)>
+<!ELEMENT organisme (nom,(adresse | telephone))>
+<!ATTLIST organisme secteur (prive|public) "prive">

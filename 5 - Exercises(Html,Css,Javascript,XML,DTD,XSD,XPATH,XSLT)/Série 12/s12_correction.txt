@@ -1,0 +1,21 @@
+1-  //livre
+2-  //livre/titre
+3-  //livre[@id]
+4-  //livre[@id='bk102']
+5-  //livre[genre]/auteur
+6-  //livre[not(genre)]
+7-  //livre[genre or auteur]
+8-  //livre[genre and auteur]
+9-  //livre[2]
+10- //livre[last()]
+11- //livre[last()]/description
+12- //livre[last()]/description/text()
+13- //livre[@id='bk102']/titre/text()
+14- //livre[prix> 10]
+15- //livre[prix= 5.95] 
+16- count(//livre) 
+18- //livre[auteur='Ralls, Kim']
+20- //livre[auteur='Ralls, Kim' and titre='Midnight Rain']
+21- //livre[auteur='Ralls, Kim' and titre='Midnight Rain']/prix
+22- //livre[auteur='Ralls, Kim' and titre='Midnight Rain' and prix>2]/description/text()
+23- count(//livre[auteur='Ralls, Kim' and titre='Midnight Rain' and prix>2])

@@ -1,0 +1,77 @@
+<html>
+
+    <head>
+            <meta charset="utf-8">
+            <title></title>
+
+
+        <style>      
+
+            .Slider{ margin: 50px auto;width: 80%;height: 500px; position: relative; background-image: url(1.jpg);background-repeat: no-repeat;background-size: cover;background-position: center ;border-radius: 10px;
+
+            transition-property: background;
+                    transition-duration: 3s;
+                    transition-timing-function: ease;
+
+
+
+            }
+            .BTN1,.BTN2{margin: 20px; position: absolute;top: 40% ;width: 40px;height: auto;background-color: transparent;font-size: 300%;font-weight: bold;border: none;color: white;cursor: pointer;
+
+                transition-property: transform;transition-duration: 1s;
+
+            }
+            .BTN1{left: 2px;}.BTN2{right: 2px;}
+            .BTN1:hover ,.BTN2:hover{transform: rotate(-360deg)}
+
+
+
+
+        </style>
+    </head>
+    
+    <body>
+
+       <div id="Slider" class="Slider"> 
+           <div id="BTN1" class="BTN1" onclick="change('BTN1');" >&lt;</div>
+           <div id="BTN2" class="BTN2" onclick="change('BTN2');" >&gt;</div>
+        </div>
+        <script>
+
+            timer();
+
+            function timer() {  
+                setInterval( function() {
+
+                    if(i==4){i=1;SL.style.backgroundImage="url('"+i+".jpg')";}
+                    else{i++;SL.style.backgroundImage="url('"+i+".jpg')";}
+
+                }, 5000 );
+            }
+
+            var SL =  document.getElementById("Slider"),
+                BTN1 =  document.getElementById("BTN1"),
+                BTN2 =  document.getElementById("BTN2");
+
+
+            var i = 1;
+            SL.style.backgroundImage="url('"+i+".jpg')";
+
+            function change(BTN){
+                if(BTN == "BTN1"){
+                    if(i==1){i=4}else{i--;}
+                    SL.style.backgroundImage="url('"+i+".jpg')";
+                }
+                if(BTN == "BTN2"){
+                    if(i==4){i=1}else{i++;}
+                    SL.style.backgroundImage="url('"+i+".jpg')";
+                }
+
+            }
+
+
+
+        </script>
+    </body>
+
+</html>

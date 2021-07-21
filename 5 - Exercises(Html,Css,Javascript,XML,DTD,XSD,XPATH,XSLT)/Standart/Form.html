@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="welcom to my web site">
+		<title>EX2</title>	
+
+        <style>
+        
+            body{background-color: darkviolet}
+           
+            
+			input[type="text"],input[type="email"],input[type="Password"],textarea {padding:7px; width:100%; }
+
+            fieldset > div>div{width: 30%;display: inline-grid;}
+            fieldset > div>div+div{width: 65%}
+            select{width: 100px}
+            
+            label,input{margin-bottom:10px;width: 100px}
+            
+            fieldset
+			{
+				background:#FFF;
+				border:1px solid #CCC;
+				padding:20px;
+				width:500px;
+				margin:20px auto;
+			}
+            
+			legend{background:#FFF;border:1px solid #CCC;padding:10px;}
+            textarea{padding:10px;height:100px;margin-bottom:10px}
+            
+        </style>
+        
+	</head>
+	<body>
+
+        <fieldset class="FSBack">
+            <legend class="LGBack">Personal Information</legend>
+            <div> 
+                <div>
+                    <label>Nom</label>
+                </div>
+
+                <div>
+                    <input type="text" name="name" placeholder="Type Your First Name" max="15">
+                </div>
+            </div>
+            <div>
+                <div>
+                    <label>PréNom</label>
+                </div>
+                <div>
+                    <input type="text" name="pname" placeholder="Type Your Last Name" max="15">
+                </div>
+            </div>
+            <div>
+                <div>
+                    <label>Password</label>
+                </div>
+                <div>
+                    <input type="password" name="password" placeholder="Enter Your Password">
+                </div>
+            </div>
+            <div> 
+                <div>
+                    <label>E-mail</label>
+                </div>
+
+                <div>
+                    <input type="email" name="email" placeholder="Enter Your Email">
+                </div>
+            </div>
+            <div>
+                <div>
+                    <label>Gender</label>
+                </div>
+                <div>
+                    <select name="Gender">
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                    </select>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <label>Address</label>
+                </div>
+                <div>
+                    <textarea></textarea>
+                </div>
+            </div>
+
+        </fieldset>
+
+
+	</body>
+</html>
