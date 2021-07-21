@@ -1,0 +1,35 @@
+.p1:first-letter
+{
+	font-size:40px;
+	font-weight:bold;
+	color:yellow;
+	background:blue;
+	display:block;
+	margin:0px 10px 0 0;
+	padding:2px 5px;
+	
+}
+
+.p1:first-line
+{
+	color:#080;
+	font-weight:bold;
+}
+div:first-child{ background:#F00 }
+
+div p:first-child{ background:#DDD }
+
+.D1 p:first-child span:first-child { color:yellow }
+
+.D2:before
+{
+	content:"Iam  content 1 from css ";
+	color:#f00;
+	font-weight:bold
+}
+.D2:after
+{
+	content:" Iam  content 2 from css";
+	color:#00F;
+	font-weight:bold
+}

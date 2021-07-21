@@ -1,0 +1,40 @@
+a{  color:#00F; text-decoration:none }
+a:hover{ color:#F00; font-weight:bold ; text-decoration:line-through  }
+a:active{  color:#080; font-weight:normal ; text-decoration:none }
+
+/*****************************************************************/
+
+ul
+{
+	list-style-type:circle;
+	list-style-position:inside;/*outside*/
+	list-style-image:url(IMG/IconList.png)
+	/* list-style: circle inside url(IconList.PNG) */
+	
+}
+
+
+ul li
+{
+	border:1px solid #DDD;
+}
+
+/*armenian
+circle
+cjk-ideographic
+decimal
+decimal-leading-zero
+georgian
+hebrew
+hiragana
+hiragana-iroha
+katakana
+katakana-iroha
+lower-alpha
+lower-greek
+lower-latin
+lower-roman
+none
+square
+upper-latin
+upper-roman*/

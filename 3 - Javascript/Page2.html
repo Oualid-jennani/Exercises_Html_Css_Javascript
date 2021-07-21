@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="welcom to my web site">
+		<title>My Page 2</title>	
+        
+        <script>
+            /* onload, onclick, ondblclick*/
+            function Click() {
+                var v = document.getElementById("B0");
+                    v.value = "You Clicked On The button ";
+            }
+            function DBLClick() {
+                document.getElementById("B0").value = "You Double Clicked On The Button ";
+            }     
+        </script>
+        
+	</head>
+	<body>
+        <input id="B0" type="button" value="Click me" onclick="Click()" ondblclick="DBLClick()" >
+        <br><br>
+        
+        <p>-----------------------------------------------------------------------</p>
+        <input id="B1" type="button" value="Click me" onclick="ClickChangeText()" >
+        <br><br>
+        
+        <div id="D1" style="background: #DDD">div1</div>
+        <br><br>
+		
+        <div id="D2" style="background: yellow">div2</div>
+        <br><br>
+        
+        <div id="D3" style="background: blue">div3</div>
+        <br><br>
+        <p>-----------------------------------------------------------------------</p>
+        <button id="B2" >Calculate</button>
+        <input id="inp1" type="text" maxlength="20" >
+        <br><br>     
+        <div id="D4" style="background: #DDD"></div>
+        <br><br>
+           
+        <input id="inp2" type="text">
+        <div id="D5" style="background: #DDD; display: inline"></div>
+        <br><br>
+        
+        <input id="inp3" type="text">
+        <br><br>
+        <p>-----------------------------------------------------------------------</p>
+        <input id="inp4" type="text">
+        <select id="sel">
+            <option value="10">Dolar</option>
+            <option value="0.1">Dinar</option>
+            <option value="5">Yin</option>
+        </select>
+        <br>
+        <div id="D6" style="background: #DDD; display: inline">0</div>
+        <br><br>
+        
+        <script src="Script2.js"></script>
+	</body>
+</html>

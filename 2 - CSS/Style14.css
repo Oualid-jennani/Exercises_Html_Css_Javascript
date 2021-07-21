@@ -1,0 +1,46 @@
+.D1{ width:100px; height:100px;background:#DDD;color:#FFF;padding:10px;
+	position:absolute;top:0px;left:0px;
+	
+	z-index:3
+  }
+  
+  
+.D2{ width:100px; height:100px;background:#F00;color:#FFF;padding:10px;
+	position:absolute;top:20px;left:20px;
+	
+	z-index:1
+  }
+
+
+.D3{ width:100px; height:100px;background:#080;color:#FFF;padding:10px;
+	position:absolute;top:40px;left:40px;
+	
+	z-index:2
+  }
+  
+  /**********************************************************************/
+  
+  
+.D4:after{ 
+	content:"hello walid jennani";
+	background:#F00
+  }
+  
+.D5:before{ 
+	content:"hello walid jennani";
+	color:yellow
+  }
+.D4,.D5{ background:#DDD; }
+  /**********************************************************************/
+.D6{ width:300px;background:blue;color:#FFF;padding:10px;border:5px solid #F00;
+
+	outline:5px solid #080;
+  }
+  
+  
+  
+
+
+
+
+

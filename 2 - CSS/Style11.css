@@ -1,0 +1,21 @@
+.left{ 
+	width:300px;height:200px; background:#000;color:#FFF;padding:10px;margin:10px;
+	float:left /* none */
+}
+
+span{ color:yellow;float:right/* none */}
+
+.clear{ clear:both }
+
+.center{ text-align:center }
+
+.right{ 
+	width:300px;height:200px; background:#000;color:#FFF;padding:10px;margin:10px;
+	float:right /* none */
+}
+
+.LF{float:right;}
+
+h2{margin-left:20px;margin-right:30px}
+
+

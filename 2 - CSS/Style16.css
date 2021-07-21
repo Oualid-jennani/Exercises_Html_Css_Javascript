@@ -1,0 +1,32 @@
+div.parent{ background:#00F ;color:#FFF;padding:10px;}
+div.parent > div { background:#F00;color:#FFF;margin:10px;padding:10px; }
+div.parent > p { background:#080;color:#FFF;margin:10px;padding:10px; }
+
+div.parent aside { background:#000;color:#FFF;margin:10px;padding:10px; }
+
+div.parent aside p{ background:#DDD;color:#FFF;margin:10px;padding:10px; } 
+div.parent aside > p{ background:yellow;color:#FFF;margin:10px;padding:10px; } 
+
+
+
+
+
+
+
+
+
+
+div.parent2{ background:#00F ;color:#FFF;padding:10px;}
+div.parent2 > div { background:#F00;color:#FFF;margin:10px;padding:10px; }
+div.parent2 > p { background:#080;color:#FFF;margin:10px;padding:10px; }
+
+div.parent2 *{ border: 3px solid #F00 } 
+
+div.parent2 p+div{ background:yellow; } 
+
+
+div.parent3{ background:#00F ;color:#FFF;padding:10px;}
+div.parent3 > div { background:#F00;color:#FFF;margin:10px;padding:10px; }
+div.parent3 > p { background:#080;color:#FFF;margin:10px;padding:10px; }
+
+div.parent3 p~div{ background:yellow; } 

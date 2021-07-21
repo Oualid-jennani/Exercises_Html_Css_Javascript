@@ -1,0 +1,7 @@
+.D1,.D2,.D3,.D4{ width:120px;height:145px;background:#DDD;padding:10px;margin:10px }
+.D2{ overflow:hidden;margin:10px auto }
+.D3{ overflow:scroll;margin:10px auto }
+.D4{ overflow:auto;margin:10px auto }
+
+.D5{background:#DDD;margin:10px;overflow:hidden}
+	p{ float:left}

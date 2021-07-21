@@ -1,0 +1,38 @@
+div{background-color:#DDD;padding:10px;margin:10px auto;}
+.D0{border : 1px solid #F00}
+.D1{
+border-width:2px 4px /*<== 2px 4px 2px 4px*//* top  right  bottom  left */;
+border-style:solid dotted;/* solid dotted solid dotted */
+border-Color:red black ;/*  red  black  red  black */
+}
+
+.D2{
+border-width:2px 8px 12px /*<== 2px 8px 12px 8px*/;
+border-style:dashed double none ;/* dashed  double  none  double */
+border-Color:red yellow black ;/*  red yellow  black yellow*/
+}
+.D3{
+border-width:8px;
+border-style:dotted dashed double groove ;
+border-Color:#676767 ;
+}
+.D4{
+border-width:8px;
+border-style:solid;
+border-Color:green black maroon gray 
+}
+.D5{
+border-top: 8px solid yellow;
+border-left: 4px ridge blue;
+border-right: 4px hidden blue
+}
+.D6{
+border-bottom-width:10px;
+border-bottom-style:solid;
+border-bottom-color:greenyellow
+}
+/*
+border-style : none_solid_dotted_dashed_double_groove_ridge_inset_outset_hidden
+*/
+
+

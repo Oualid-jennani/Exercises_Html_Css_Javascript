@@ -1,0 +1,19 @@
+.width{  background-color:#DDD; width:600px}
+.Wchild1{  background-color:#00F; }
+.Wchild2{  background-color:#00F; width:50%}
+.Wchild3{  background-color:#00F; min-width:300px;max-width:550px}
+.Wchild4{  background-color:#00F;max-width:120px}
+.Wchild5{  background-color:#00F;max-width:70%}
+.WB1{ background:#000;color:#FFF }
+.WB2{ background:#000;color:#FFF;min-width:100px }
+.WB3{ background:#000;color:#FFF;max-width:80px }
+/*******************************************************/
+.height{  background-color:#DDD; width:600px}
+.Hchild1{  background-color:#00F;height:auto }
+.Hchild2{  background-color:#00F;height:70px}
+.Hchild3{  background-color:#00F;max-width:100px;min-height:130px }
+.Hchild4{  background-color:#00F;max-width:100px;max-height:30px;overflow:hidden  }
+
+.test{  background-color:#DDD;height:200px;width:400px}
+.test1{  background-color:yellow; height:50%}
+ 

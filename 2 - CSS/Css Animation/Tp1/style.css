@@ -1,0 +1,123 @@
+*{margin:0;padding:0;}
+
+@-webkit-keyframes rotation{    
+    0%{-webkit-transform:rotateY(0deg);}    
+    100%{-webkit-transform:rotateY(-360deg);}
+}
+.wapper{
+    -webkit-perspective:800;
+    -webkit-perspective-origin:50% -100%;
+    width: 200px;
+    height: 300px;
+    margin: 100px auto;
+
+}
+.rotate{
+    -webkit-transform-style:preserve-3d;
+    -webkit-animation: rotation 6s infinite;
+    -webkit-animation-timing-function:linear;
+    -webkit-transform-origin:center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.item{
+    -webkit-transform:center;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    text-align: center;
+    line-height: 200px;
+    color: white;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+
+.item1{
+    left: -100px;
+    -webkit-transform:rotateY(-90deg);
+    background-color: aqua;
+   
+}
+.item2{
+    left: 0px;
+    -webkit-transform:translateZ(100px);
+    background-color: blueviolet
+ 
+}
+.item3{
+    left: 100px;
+    -webkit-transform:rotateY(90deg);
+    background-color: black
+
+}
+.item4{
+    left: 0px;
+    -webkit-transform:translateZ(-100px);
+    background-color: yellow
+
+}
+.item5{
+    left: 0px;
+    -webkit-transform:translateY(-100px) rotateX(90deg);
+    background-color: greenyellow
+   
+}
+.item6{
+    left: -0px;
+    -webkit-transform:translateY(100px) rotateX(-90deg);
+    background-color: purple
+}
+
+
+
+
+@-webkit-keyframes rotation{    
+   0%{-webkit-transform:rotateY(0deg);}    
+    100%{-webkit-transform:rotateY(-360deg)rotateX(-360deg)rotate(-360deg);}
+}
+
+
+.rotate:hover{
+    -webkit-animation-play-state:paused;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

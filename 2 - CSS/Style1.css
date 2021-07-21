@@ -1,0 +1,39 @@
+P{
+color:red;
+font-size:30px
+}
+.walid{    color:blue     }
+.walid{    color:yellow     }
+
+.alae{    color:green     }
+
+.om{    color:green     }
+
+
+#test{
+	font-size:60px	
+}
+.div1{
+	background-color:#00BFFF;
+}
+.div2{
+	height:400px;
+	width:700px;
+	background-image:url('zeldres.jpg');
+	background-repeat:no-repeat;
+	background-attachment:scroll;
+	background-position:50% 50%;
+	background-size: 400px 250px;
+	background-color:#01DF01
+}
+.div3{
+	height:400px;
+	width:700px;
+	background:url('zeldres.jpg') no-repeat scroll 50% 50%;
+}
+.div4{
+	height:400px;
+	width:700px;
+	background:url('zeldres.jpg') no-repeat scroll 50% 50%;
+	background-size: contain;
+}

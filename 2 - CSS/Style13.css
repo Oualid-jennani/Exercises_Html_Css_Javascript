@@ -1,0 +1,12 @@
+div{ width:300px; background:#DDD;padding:10px;margin:10px;float:left}
+
+div.visible1
+{
+	visibility:hidden
+}
+
+div.visible2{
+	display:none
+}
+
+

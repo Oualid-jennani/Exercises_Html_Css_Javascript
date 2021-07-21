@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="welcom to my web site">
+		<title>Welcome</title>
+
+		<link rel="stylesheet" href="style.css">
+		<script>
+			function sayHello(){
+				alert("hello HTML");
+			}
+		</script>
+		<style>
+			body{
+				background-color:#B404AE;
+			}
+			.FSBack{
+                background-color:#00BFFF;
+            }
+			.LGBack{
+                background-color:#FFFF00;
+            }
+		</style>
+	</head>
+	<body>
+		<form name="register">
+		
+			<fieldset class="FSBack">
+				<legend class="LGBack">LOGIN</legend>
+				
+				<label>User Name</label>
+				<input type="text" name="username" placeholder="Type Your Name" maxlength="15">
+				
+				<br><br>
+				
+				<label>password</label>
+				<input type="password" name="password" placeholder="Enter Your Password">
+				
+				<br><br>
+				
+				<input type="checkbox">
+				<label>Remember me</label> <input type="submit" value="LOGIN">
+			</fieldset>
+			<!--****************************************************************************-->
+			<br><br>
+			<fieldset class="FSBack">
+				<legend class="LGBack">Register</legend>
+            
+                <label> First Name: </label>
+				<input type = "text" size = "15px" maxlength = "20" placeholder = "First Name">
+				
+				<br><br>
+                <label> Last Name: </label>
+                <input type = "text" size = "15px"maxlength = "20" placeholder = "Last Name">
+				
+				<br><br>
+                <label> Email Address:</label>
+                <input type = "email"size = "20px" maxlength = "30" placeholder = "Email Address">
+                
+				<br><br>
+                <label> Password: </label>
+                <input type = "password" maxlength = "20" name = "Password" placeholder = "Password" size = "15px">
+				
+				<br><br>
+                <label> Rpassword: </label>
+                <input type = "password"  maxlength = "20" name = "Rpassword" size = "15px"  placeholder = "Repeat Password">
+				
+                <br><br>
+                <input type = "submit" value = "Register">
+			</fieldset>
+			<!--****************************************************************************-->
+			<br><br>
+			<fieldset class="FSBack">
+				<legend class="LGBack">Personal Info</legend>
+				<label>Upload Your CV</label>
+				<input type="file">
+				<input type="Hidden" value="testing"><br><br>
+				<label>Your Message</label><br>
+				<textarea rows="6" cols="60">This Note You Can't Edit</textarea><!--readonly-->
+			</fieldset>
+			<!--****************************************************************************-->
+			<br><br>
+			<fieldset class="FSBack">
+				<legend class="LGBack">Personal Mobile</legend>
+
+				<label>Choose Your Mobile</label>
+				<br>
+				<input name="tel" type="radio" value="Samsung">Samsung<br>
+				<input name="tel" type="radio" value="Iphone">Iphone<br>
+				<input name="tel" type="radio" value="Nokia">Nokia<br>
+				<br>
+				<label>Choose Your Carte Sim</label>
+				<br>
+				<input name="Csim" type="radio" value="INWI">INWI<br>
+				<input name="Csim" type="radio" value="IAM">IAM<br>
+				<input name="Csim" type="radio" value="Orange">Orange<br>
+			</fieldset>
+			<!--****************************************************************************-->
+			<br><br>
+			<fieldset class="FSBack">
+				<legend class="LGBack">Send Options</legend>
+				
+				<select name="Time"><!--size="3" multiple disabled-->
+					<option value="1">Now</option>
+					<option value="2">Tomorrow</option>
+					<option value="3" disabled>After A Week</option>
+					<option value="4" selected>Next Day</option>
+					<option value="5">Next Month</option>
+					<option value="6">Next Year</option>
+				</select>
+				
+				<select name="Time2" ><!--size="4" multiple disabled-->
+					<optgroup label="Near Time"> <!--disabled-->
+						<option value="1">Now</option>
+						<option value="2">Tomorrow</option>
+						<option value="3">After A Week</option>
+					</optgroup>
+					<optgroup label="Far Time">
+						<option value="4">Next Day</option>
+						<option value="5">Next Month</option>
+						<option value="6">Next Year</option>
+					</optgroup>
+				</select>
+				
+				<br><br>
+				<input type="submit" value="Sign UP">
+				<input type="button" value="Say Hello" onclick="sayHello()">
+				<input type="reset">
+
+			</fieldset>
+			
+		</form>
+	</body>
+</html>
